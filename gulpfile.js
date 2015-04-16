@@ -1,8 +1,5 @@
-var gulp = require('./lib/js')([
-    'less',
-    'scripts',
-    'watch'
-]);
+var elixir = require('laravel-elixir');
 
-gulp.task('build', ['less', 'scripts']);
-gulp.task('default', ['build', 'watch']);
+elixir(function (mix) {  
+    mix.sass('app.scss')
+});

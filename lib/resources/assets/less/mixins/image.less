@@ -1,0 +1,24 @@
+//
+// ----> Image Replacement <---- //
+//
+.image-replacement(@image, @image-2x, @width, @height)
+{
+    .hide-text();
+    .img-retina(@image, @image-2x, @width, @height);
+    .size(@width, @height);
+    display: block;
+}
+
+.image-replacement-square(@image, @image-2x, @width)
+{
+    .image-replacement(@image, @image-2x, @width, @width);
+}
+
+.background-size(@type)
+{
+    -webkit-background-size: @type;
+       -moz-background-size: @type;
+        -ms-background-size: @type;
+         -o-background-size: @type;
+            background-size: @type;
+}

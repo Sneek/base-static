@@ -1,15 +1,6 @@
 {
   "devDependencies": {
     "gulp": "^3.8.11",
-    "gulp-concat": "*",
-    "gulp-jshint": "*",
-    "gulp-jsmin": "*",
-    "gulp-less": "1.3.2",
-    "gulp-minify-css": "*",
-    "gulp-notify": "*",
-    "gulp-rename": "*",
-    "gulp-uglify": "*",
-    "gulp-watch": "*",
     "laravel-elixir": "^0.18.7"
   }
 }
